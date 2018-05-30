@@ -1,1 +1,0 @@
-SELECT * FROM associatemajorsdb.associate_majors;

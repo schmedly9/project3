@@ -1,0 +1,1 @@
+SELECT * FROM bachelormajorsdb.bachelor_majors;

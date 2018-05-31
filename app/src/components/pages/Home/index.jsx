@@ -6,7 +6,7 @@ function Home() {
   return (
     <div className="Home">
       <div className="header">
-        <h1 className="title">Welcome To P3!</h1>
+        <h1 className="title">Welcome To AZ College Finder</h1>
       </div>
       <div className="checkout has-text-centered">
         <h3 className="title is-3">Select your program!</h3>

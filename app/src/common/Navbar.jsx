@@ -6,12 +6,11 @@ function Navbar() {
     <nav className="navbar is-transparent">
       <div className="navbar-brand">
         <Link className="navbar-item" to="/">
-          <h1 className="title">P3</h1>
+          <h1 className="title">College Finder</h1>
         </Link>
         <div
           className="navbar-burger burger"
-          data-target="navbarExampleTransparentExample"
-        >
+          data-target="navbarExampleTransparentExample">
           <span />
           <span />
           <span />

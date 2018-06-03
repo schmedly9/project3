@@ -22,12 +22,6 @@ function Navbar() {
           <Link className="navbar-item" to="/">
             Home
           </Link>
-          <Link className="navbar-item" to="/schools">
-            Schools
-          </Link>
-          <Link className="navbar-item" to="/Fun">
-            Fun
-          </Link>
         </div>
       </div>
     </nav>

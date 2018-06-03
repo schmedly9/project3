@@ -1,4 +1,5 @@
-SELECT * FROM bachelormajorsdb.bachelor_majors;
+SELECT * FROM project3db.bachelor_majors;
+
 INSERT INTO `bachelor_majors` (`id`,`major`,`degree`,`campus`,`campus2`,`campus3`,`campus4`,`campus5`,`campus6`) VALUES (Null,'Accountancy','Bachelor of Science','ASUT','ASUW','NAUF','','','');
 INSERT INTO `bachelor_majors` (`id`,`major`,`degree`,`campus`,`campus2`,`campus3`,`campus4`,`campus5`,`campus6`) VALUES (Null,'Accounting','Bachelor of Science','UOFA','','','','','');
 INSERT INTO `bachelor_majors` (`id`,`major`,`degree`,`campus`,`campus2`,`campus3`,`campus4`,`campus5`,`campus6`) VALUES (Null,'Actuarial Science','Bachelor of Science','ASUT','','','','','');

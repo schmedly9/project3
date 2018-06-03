@@ -1,9 +1,5 @@
-/*
--- Query: SELECT * FROM project3db.associate_majors
-LIMIT 0, 1000
+SELECT * FROM project3db.associate_majors;
 
--- Date: 2018-05-31 19:05
-*/
 INSERT INTO `associate_majors` (`id`,`major`,`degree`,`campus`,`campus2`,`campus3`,`campus4`,`campus5`,`campus6`,`campus7`,`campus8`,`campus9`,`campus10`,`campus11`,`campus12`,`campus13`,`campus14`,`campus15`,`campus16`,`campus17`,`campus18`,`campus19`) VALUES (1,'Accounting ','Associate of Applied Science','AZWC','CAZC','','','','CGCC','EMCC','GWCC','GDCC','MSCC','PVCC','PHXC','','','SMCC','','','PMCC','YVPC');
 INSERT INTO `associate_majors` (`id`,`major`,`degree`,`campus`,`campus2`,`campus3`,`campus4`,`campus5`,`campus6`,`campus7`,`campus8`,`campus9`,`campus10`,`campus11`,`campus12`,`campus13`,`campus14`,`campus15`,`campus16`,`campus17`,`campus18`,`campus19`) VALUES (2,'Administration of Justice (AA)','Associate of Arts','AZWC','CAZC','CHSC','CNOC','EAZC','CGCC','','','','','','','','','','MHCC','','PMCC','');
 INSERT INTO `associate_majors` (`id`,`major`,`degree`,`campus`,`campus2`,`campus3`,`campus4`,`campus5`,`campus6`,`campus7`,`campus8`,`campus9`,`campus10`,`campus11`,`campus12`,`campus13`,`campus14`,`campus15`,`campus16`,`campus17`,`campus18`,`campus19`) VALUES (3,'Administration of Justice (AAS)','Associate of Applied Science','AZWC','CAZC','CHSC','CNOC','EAZC','CGCC','EMCC','','GDCC','MSCC','PVCC','PHXC','','SDCC','','','','PMCC','YVPC');

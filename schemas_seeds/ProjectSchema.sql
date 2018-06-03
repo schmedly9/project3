@@ -50,7 +50,7 @@ CREATE TABLE schools_table
 	id int NOT NULL AUTO_INCREMENT,
 	schoolcode varchar(4) NOT NULL,
 	schoolname varchar (50) NOT NULL,
-    location varchar (50) NOT NULL,
+    campusaddress varchar (50) NOT NULL,
     enrollment varchar (6),
     tuition varchar (8),
     summary varchar (400),

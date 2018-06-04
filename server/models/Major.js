@@ -1,28 +1,21 @@
 module.exports = function(sequelize, DataTypes) {
-  var Major = sequelize.define("major", {
-    title: {
-      type: DataTypes.STRING,
-      allowNull: false,
-      validate: {
-        len: [1]
-      }
-    },
-    body: {
-      type: DataTypes.TEXT,
-      allowNull: false,
-      len: [1]
-    }
+  var Major = sequelize.define("Major", {
+    major: DataTypes.STRING,
+    degree: DataTypes.STRING,
+    degreetype: DataTypes.STRING,
+    degreerealm: DataTypes.STRING,
+    campus: DataTypes.STRING,
+    schoolname: DataTypes.STRING,
+    campusaddress: DataTypes.STRING,
+    enrollment: DataTypes.STRING,
+    tuition: DataTypes.TEXT,
+    summary: DataTypes.STRING,
+    photo: DataTypes.STRING,
+    map: DataTypes.STRING,
+    website: DataTypes.STRING
+  },{
+    timestamps: false
   });
-
-  Major.associate = function(models) {
-    // We're saying that a Post should belong to an Author
-    // A Post can't be created without an Author due to the foreign key constraint
-    Major.belongsTo(models.School, {
-      foreignKey: {
-        allowNull: false
-      }
-    });
-  };
 
   return Major;
 };

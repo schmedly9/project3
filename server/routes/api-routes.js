@@ -14,16 +14,24 @@ module.exports = function(app) {
   app.get("/api/all", function(req, res) {
     db.Major.findAll({}).then(results => {
       res.send(results);
-    })
+    });
   });
 
   // GET route for getting all of the 4 year degrees
-  app.get("api/bachelor_majors/", function(req, res) {
-    db.findAll({});
+  app.get("/api/bachelors", function(req, res) {
+    db.Major.findAll({ where: { degreetype: "Bachelor" } }).then(data => {
+      res.send(data);
+    });
+  });
+
+  app.get("/api/associate", function(req, res) {
+    db.Major.findAll({ where: { degreetype: "Associate" } }).then(data => {
+      res.send(data);
+    });
   });
 
   //GET route for getting all of the schools
-  app.get("api/schools_table/", function(req, res) {
+  app.get("/api/schools_table/", function(req, res) {
     db.findall({});
   });
 

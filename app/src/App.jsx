@@ -4,7 +4,7 @@ import Navbar from "./common/Navbar";
 import Footer from "./common/Footer";
 import Home from "./components/pages/Home";
 import SignIn from "./components/SignIn";
-import Schools from "./components/pages/schools/schools";
+import Bachelors from "./components/pages/Schools/Bachelors";
 import Fun from "./components/pages/fun/index";
 
 class App extends Component {
@@ -14,7 +14,7 @@ class App extends Component {
         <Navbar />
         <Switch>
           <Route exact path="/" component={Home} />
-          <Route exact path="/4year" component={Schools} />
+          <Route exact path="/bachelors" component={Bachelors} />
           <Route exact path="/2year" component={Fun} />
         </Switch>
         <Footer />

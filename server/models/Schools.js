@@ -1,5 +1,5 @@
 module.exports = function(sequelize, DataTypes) {
-  var Schools= sequelize.define("school", {
+  var Schools= sequelize.define("School", {
     // Giving the Author model a name of type STRING
     name: DataTypes.STRING
   });
@@ -7,7 +7,7 @@ module.exports = function(sequelize, DataTypes) {
   Schools.associate = function(models) {
     // Associating Author with Posts
     // When an Author is deleted, also delete any associated Posts
-    Schools.hasMany(models.Post, {
+    Schools.hasMany(models.Major, {
       onDelete: "cascade"
     });
   };

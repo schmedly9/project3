@@ -10,7 +10,7 @@
 
 .Home .checkout{
   height: 300px;
-  background-color: #d3d6d2c0;
+  background-color: #f7f2ccc0;
 }
 
 .Home .title{
@@ -27,4 +27,9 @@
 
 .Home .button{
   margin-top: 50px;
+ 
+}
+
+.Navbar {
+  background-color: #f7f2ccc0;
 }

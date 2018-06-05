@@ -1,6 +1,6 @@
 .Home .header{
   background-image: linear-gradient(to right bottom, #d3d6d2c0, #2f3332c0), url("../../../images/az_1.jpg");
-  height: 90vh;
+  height: 80vh;
   background-size: cover;
   background-position: top;
   display: flex;
@@ -17,9 +17,8 @@
   padding-top: 35px;
 }
 
-.radio .description{
-  padding-left: 10px;
-}
+
+
 
 .Home .select{
   margin-top: 15px;
@@ -31,22 +30,20 @@
 }
 
 .Navbar {
-  background-color: #f7f2ccc0;
+  background-color: #f3d698f3;
 }
 .card {
   width: 222px;
+  color: black;
 }
-#card-content {
-  width: 400;
-  border: 12px;
-  border-color: black
+.card-content {
+  width: 860px;
+  
 }
-#img {
-  width: 50px;
+.img {
+  width: 20px;
 }
-tempData.degreetype {
-  font-style: italic;
-}
+
 .body {
   width: 300px;
 }

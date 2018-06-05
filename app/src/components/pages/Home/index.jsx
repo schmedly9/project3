@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import index from "./index.css";
 
-import "./index.css";
 
 class Home extends React.Component {
   render() {
@@ -54,6 +54,7 @@ function Program() {
       <p>{tempData.major}</p>
       <p>{tempData.degree}</p>
       <p>{tempData.degreetype}</p>
+      <p>{tempData.degreerealm}</p>
       <p>{tempData.schoolname}</p>
       <p>{tempData.tuition}</p>
       <p>{tempData.summary}</p>
@@ -68,20 +69,20 @@ function Card() {
   return (
     <div className="cardis">
       <div className="card-image-outlined">
-        <figure className="image -is-446by448">
-          <img src="http://lorempixel.com/400/400" alt="school image" />
+        <figure className="image -is-6by48">
+          <img src="<%= ./images({tempData.photo}) %>"alt="school image" />
         </figure>
       </div>
-      <div className="card-content is-small">
+      <div className="card-content ">
         <div className="media">
           <div className="media-left">
-            <figure className="image is-42x42">
+            <figure className="image is-25x25">
               <img src="http://lorempixel.com/200/200" alt="map image" />
             </figure>
           </div>
           <div className="media-content">
             <p className="title is-4">{tempData.schoolname}</p>
-            <p className="subtitle is-6">Degree:<br/>
+            <p className="subtitle is-6">{tempData.degreerealm}<br/>Degree:<br/>
             {tempData.degreetype}
             <br/>
             Tuition:
@@ -97,3 +98,6 @@ function Card() {
 
   );
 }
+
+
+

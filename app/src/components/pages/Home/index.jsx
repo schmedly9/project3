@@ -67,9 +67,9 @@ function Program() {
 
 function Card() {
   return (
-    <div className="cardis">
+    <div className="card">
       <div className="card-image-outlined">
-        <figure className="image -is-6by48">
+        <figure className="image -is-36by48">
           <img src="<%= ./images({tempData.photo}) %>"alt="school image" />
         </figure>
       </div>

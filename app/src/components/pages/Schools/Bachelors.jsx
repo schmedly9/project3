@@ -1,5 +1,9 @@
 import React from "react";
 import axios from "axios";
+import ProgramCard from "../../ProgramCard";
+
+import "./index.css";
+
 
 class Bachelors extends React.Component {
   state = {
@@ -17,9 +21,9 @@ class Bachelors extends React.Component {
   render() {
     const { programs } = this.state;
     return (
-      <div>
+      <div className="container programs">
         {programs.map(program => {
-          return <p>{program.degree}</p>;
+          return <ProgramCard {...program} />;
         })}
       </div>
     );

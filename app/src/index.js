@@ -11,9 +11,6 @@ import reducers from "./reducers";
 // Components
 import App from "./App";
 
-// Utility Functions
-import registerServiceWorker from "./registerServiceWorker";
-
 // CSS
 import "../node_modules/bulma/css/bulma.min.css";
 
@@ -30,4 +27,3 @@ ReactDOM.render(
   </Provider>,
   document.getElementById("root")
 );
-registerServiceWorker();

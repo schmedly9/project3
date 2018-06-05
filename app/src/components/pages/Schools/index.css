@@ -1,0 +1,16 @@
+.programs{
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+@media (max-width: 950px) { 
+  .programs{
+    grid-template-columns: auto auto;
+  }
+}
+
+@media (max-width: 650px) { 
+  .programs{
+    grid-template-columns: auto;
+  }
+}

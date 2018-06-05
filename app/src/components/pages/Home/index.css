@@ -17,9 +17,6 @@
   padding-top: 35px;
 }
 
-
-
-
 .Home .select{
   margin-top: 15px;
 }
@@ -29,21 +26,6 @@
  
 }
 
-.Navbar {
-  background-color: #f3d698f3;
-}
-.card {
-  width: 222px;
-  color: black;
-}
-.card-content {
-  width: 860px;
-  
-}
-.figure {
-  width: 20px;
-}
-
-.body {
-  width: 300px;
+.card{
+  width: 350px;
 }

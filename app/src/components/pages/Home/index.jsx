@@ -7,7 +7,7 @@ class Home extends React.Component {
   render() {
     return (
       <div className="Home">
-        <Program />
+        <Card />
         <div className="header">
           <h1 className="title">Welcome To AZ College Finder</h1>
         </div>
@@ -66,31 +66,29 @@ function Program() {
 
 function Card() {
   return (
-    <div className="card">
+    <div className="card-is-small">
       <div className="card-image">
-        <figure className="image is-4by3">
-          <img src="tempData.photo" alt="school image" />
+        <figure className="image is-46by48">
+          <img src="http://lorempixel.com/200/200" alt="school image" />
         </figure>
       </div>
-      <div className="card-content">
+      <div className="card-content is-small">
         <div className="media">
-          <div classNameName="media-left">
-            <figure class="image is-48x48">
-              <img src="tempData.map" alt="map image" />
+          <div className="media-left">
+            <figure className="image is-42x42">
+              <img src="http://lorempixel.com/200/200" alt="map image" />
             </figure>
           </div>
           <div className="media-content">
-            <p className="title is-4">tempData.schoolname</p>
-            <p className="subtitle is-6" />
+            <p className="title is-4">{tempData.schoolname}</p>
+            <p className="subtitle is-6">Degree<br/>
+            {tempData.degreetype}
+            <br/>Tuition<br/>{tempData.tuition}</p>
           </div>
         </div>
 
         <div className="content">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus nec
-          iaculis mauris. <a>@bulmaio</a>.
-          <a href="#">#css</a> <a href="#">#responsive</a>
-          <br />
-          <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
+          {tempData.summary} <a>{tempData.website}</a>
         </div>
       </div>
     </div>

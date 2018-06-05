@@ -66,31 +66,34 @@ function Program() {
 
 function Card() {
   return (
-    <div className="card-is-small">
-      <div className="card-image">
-        <figure className="image is-446by448">
-          <img src="http://lorempixel.com/200/200" alt="school image" />
+    <div className="cardis">
+      <div className="card-image-outlined">
+        <figure className="image -is-446by448">
+          <img src="http://lorempixel.com/400/400" alt="school image" />
         </figure>
       </div>
       <div className="card-content is-small">
         <div className="media">
           <div className="media-left">
-            <figure className="image is-242x242">
+            <figure className="image is-42x42">
               <img src="http://lorempixel.com/200/200" alt="map image" />
             </figure>
           </div>
           <div className="media-content">
             <p className="title is-4">{tempData.schoolname}</p>
-            <p className="subtitle is-6">Degree<br/>
+            <p className="subtitle is-6">Degree:<br/>
             {tempData.degreetype}
-            <br/>Tuition<br/>{tempData.tuition}</p>
-          </div>
+            <br/>
+            Tuition:
+            <br/>{tempData.tuition}</p>
         </div>
-
         <div className="content">
           {tempData.summary} <a>{tempData.website}</a>
         </div>
       </div>
-    </div>
+      </div>
+      </div>
+
+
   );
 }

@@ -34,10 +34,19 @@
   background-color: #f7f2ccc0;
 }
 .card {
+  width: 222px;
+}
+#card-content {
   width: 400;
   border: 12px;
   border-color: black
 }
-.img {
+#img {
   width: 50px;
+}
+tempData.degreetype {
+  font-style: italic;
+}
+.body {
+  width: 300px;
 }

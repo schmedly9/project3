@@ -68,14 +68,14 @@ function Card() {
   return (
     <div className="card-is-small">
       <div className="card-image">
-        <figure className="image is-46by48">
+        <figure className="image is-446by448">
           <img src="http://lorempixel.com/200/200" alt="school image" />
         </figure>
       </div>
       <div className="card-content is-small">
         <div className="media">
           <div className="media-left">
-            <figure className="image is-42x42">
+            <figure className="image is-242x242">
               <img src="http://lorempixel.com/200/200" alt="map image" />
             </figure>
           </div>

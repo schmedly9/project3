@@ -33,3 +33,11 @@
 .Navbar {
   background-color: #f7f2ccc0;
 }
+.card {
+  width: 400;
+  border: 12px;
+  border-color: black
+}
+.img {
+  width: 50px;
+}

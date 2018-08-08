@@ -1,7 +1,7 @@
 {
   "development": {
     "username": "root",
-    "password": "root",
+    "password": "",
     "database": "bobproject3",
     "host": "127.0.0.1",
     "dialect": "mysql"
@@ -17,7 +17,7 @@
     "username": "root",
     "password": "root",
     "database": "project3db",
-    "host": "127.0.0.1",
+   "host": "mysql://fo4thn6762295jx6:dpc2hvr1zroor1up@y5s2h87f6ur56vae.cbetxkdyhwsb.us-east-1.rds.amazonaws.com:3306/vhfpppf77d0o2355",
     "dialect": "mysql"
   }
 }

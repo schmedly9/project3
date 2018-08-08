@@ -1,6 +1,6 @@
-var Sequelize = require('sequelize');
+//var Sequelize = require('sequelize');
 
-var connection = new Sequelize('project3db', 'root', 'root');
+//var connection = new Sequelize('project3db', 'root', 'root');
 
 var associate_majors = connection.define('associate_majors', {
     major: Sequelize.TEXT,

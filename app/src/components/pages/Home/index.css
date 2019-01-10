@@ -1,6 +1,6 @@
 .Home .header{
   background-image: linear-gradient(to right bottom, #9596943c, #2f3332c0), url("../../../images/az_1.jpg");
-  height: 85vh;
+  height: 75vh;
   background-size: cover;
   background-position: top;
   display: flex;
@@ -9,21 +9,23 @@
 }
 
 .Home .checkout{
-  height: 300px;
+  height: 200px;
   background-color: #f7f2ccc0;
 }
 
 .Home .title{
   padding-top: 35px;
-  outline-color: antiquewhite
+  
+ 
 }
 
 .Home .select{
-  margin-top: 15px;
+  margin-top: 225px;
+  background-color: #f7f2ccc0;
 }
 
 .Home .button{
-  margin-top: 50px;
+  margin-top: 25px;
  
 }
 
